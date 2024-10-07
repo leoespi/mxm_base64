@@ -1,0 +1,37 @@
+name: talento_mxm_flutter
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  cached_network_image: ^3.2.0
+  url_launcher: ^6.0.20
+  youtube_player_flutter: ^8.1.0
+  image: ^3.0.1
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.2.1
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  image_picker: ^1.1.1
+  http: ^1.2.1
+  path: ^1.9.0
+  http_parser: ^4.0.2
+  path_provider: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/MXMLOGOrecortado.png
